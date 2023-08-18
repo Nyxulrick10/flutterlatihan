@@ -33,6 +33,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   salat: ^1.0.2
   smooth_compass: ^2.0.17
+  shared_preferences: ^2.0.10 
 
 dev_dependencies:
   flutter_test:
@@ -43,3 +44,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/stories/
+

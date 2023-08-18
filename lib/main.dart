@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prakerja_marmandinosoleh/compasspage.dart';
+import 'package:prakerja_marmandinosoleh/tasbihpage.dart';
+
 import 'kisah_nabi_page.dart'; // Pastikan impor halaman Kisah Nabi yang telah Anda buat
 
 void main() {
@@ -25,17 +26,12 @@ class MainMenu extends StatelessWidget {
     {
       'title': 'Doa Harian dengan Ilmu Agama',
       'imageURL':
-          'https://www.reviewofreligions.org/wp-content/uploads/2019/09/shutterstock_662670454.jpg',
-    },
-    {
-      'title': 'Compas Kiblatt',
-      'imageURL':
-          'https://www.islampos.com/wp-content/uploads/2020/11/shalat-dhuha.jpg',
+          'https://4.bp.blogspot.com/-ozGzoPwL0R0/XuIBqJAKFcI/AAAAAAAAWLg/Olt-k3QuquM88SrIx0q1me1IiXMG-_LOgCEwYBhgLKs4DAL1Ocqxs3TYH2NJw-l6uZNUcUdiRZrChirG1fem-poQeJAbBaow0ub8Q-dyACheUj7zhqP2VGeFrP2rHVXgI1TZ1xik3uBJRScRsFfx_yDPqYjSCBEwKZoUdsHmWufclac1-5ihton6d8cGAjibh9Dky4uDcX6Gc4JLhXynv9T5CqwHVCBA_PLv76YC_NEzjXccpPJIVzA_9TY9j88Vlu6-YbZTF1VoiqgX1kLn6boQ0_UcTAJctyki39X8UYYmqNc7I_Y6DQgKAENpsBNXYpy_o-aNpOWAsVrIO8KiuiuudZhwDZwdq0K1ACwvKRU7hogWiv5dLQbz1KLXvhCKcARsNyM5gUrWxPyk1mV2imKDhhSkISxJaKeS6YAaXLSdM3B5wY6qWQme8soPD_I13qT8B1kybtbK6WnQzsK3FaolYo2s-U2QjABd1rmNjf1nL-QvoH1wM8efNKSYD7gwpa0Ce2-jH1m4pUyeyLgHEBBO4TN96kunorALNvFYbhvoMniaeWES_XGQfINGL1fRQc8cjNzw80mK0rPAzrwW9sNWuMVsCsjPtmM_BwciASr_ujoUprJGhS_qVoXnLugBLxeEkXmUfWR4nGKReTlyQMJKJiPcF/s1600/20200611_170706_0000.png',
     },
     {
       'title': 'Tasbih Digital',
       'imageURL':
-          'https://assets-a1.kompasiana.com/items/album/2019/10/01/screenshot-2019-10-01-19-31-43-068-com-android-chrome-5d935275097f361b995c2d12.png',
+          'https://akcdn.detik.net.id/community/media/visual/2019/10/06/30dda9f1-62e6-4469-b107-a6e413504383_43.jpeg?w=700&q=90',
     },
     {
       'title': 'Kisah 25 Nabi',
@@ -106,13 +102,10 @@ class MainMenu extends StatelessWidget {
       case 1:
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => CompassPage()),
+          MaterialPageRoute(builder: (context) => BertasbihApp()),
         );
         break;
       case 2:
-        // Navigasi ke halaman Tasbih Digital
-        break;
-      case 3:
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => KisahNabiPage()),
