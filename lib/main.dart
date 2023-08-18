@@ -28,7 +28,7 @@ class MainMenu extends StatelessWidget {
           'https://www.reviewofreligions.org/wp-content/uploads/2019/09/shutterstock_662670454.jpg',
     },
     {
-      'title': 'Waktu Shalat',
+      'title': 'Compas Kiblatt',
       'imageURL':
           'https://www.islampos.com/wp-content/uploads/2020/11/shalat-dhuha.jpg',
     },
