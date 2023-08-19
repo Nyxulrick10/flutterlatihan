@@ -39,6 +39,8 @@ class _BertasbihAppState extends State<BertasbihApp> {
       _count = 0;
       _prefs.setInt('count', _count);
     });
+
+    Navigator.pop(context); // Kembali ke halaman sebelumnya setelah reset
   }
 
   @override

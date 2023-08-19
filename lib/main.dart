@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prakerja_marmandinosoleh/doadoapage.dart';
 import 'package:prakerja_marmandinosoleh/tasbihpage.dart';
 
 import 'kisah_nabi_page.dart'; // Pastikan impor halaman Kisah Nabi yang telah Anda buat
@@ -97,7 +98,10 @@ class MainMenu extends StatelessWidget {
   void _navigateToSelectedMenu(BuildContext context, int index) {
     switch (index) {
       case 0:
-        // Navigasi ke halaman Doa Harian
+       Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => DoaDoaApp()),
+        );
         break;
       case 1:
         Navigator.push(
